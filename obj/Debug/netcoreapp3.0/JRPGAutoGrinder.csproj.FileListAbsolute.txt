@@ -1,0 +1,14 @@
+Y:\programming\JRPGAutoGrinder\bin\Debug\netcoreapp3.0\JRPGAutoGrinder.exe
+Y:\programming\JRPGAutoGrinder\bin\Debug\netcoreapp3.0\JRPGAutoGrinder.deps.json
+Y:\programming\JRPGAutoGrinder\bin\Debug\netcoreapp3.0\JRPGAutoGrinder.runtimeconfig.json
+Y:\programming\JRPGAutoGrinder\bin\Debug\netcoreapp3.0\JRPGAutoGrinder.runtimeconfig.dev.json
+Y:\programming\JRPGAutoGrinder\bin\Debug\netcoreapp3.0\JRPGAutoGrinder.dll
+Y:\programming\JRPGAutoGrinder\bin\Debug\netcoreapp3.0\JRPGAutoGrinder.pdb
+Y:\programming\JRPGAutoGrinder\obj\Debug\netcoreapp3.0\JRPGAutoGrinder.csprojAssemblyReference.cache
+Y:\programming\JRPGAutoGrinder\obj\Debug\netcoreapp3.0\JRPGAutoGrinder.csproj.CoreCompileInputs.cache
+Y:\programming\JRPGAutoGrinder\obj\Debug\netcoreapp3.0\JRPGAutoGrinder.AssemblyInfoInputs.cache
+Y:\programming\JRPGAutoGrinder\obj\Debug\netcoreapp3.0\JRPGAutoGrinder.AssemblyInfo.cs
+Y:\programming\JRPGAutoGrinder\obj\Debug\netcoreapp3.0\JRPGAutoGrinder.csproj.CopyComplete
+Y:\programming\JRPGAutoGrinder\obj\Debug\netcoreapp3.0\JRPGAutoGrinder.dll
+Y:\programming\JRPGAutoGrinder\obj\Debug\netcoreapp3.0\JRPGAutoGrinder.pdb
+Y:\programming\JRPGAutoGrinder\bin\Debug\netcoreapp3.0\WindowsInput.dll

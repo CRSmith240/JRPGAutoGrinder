@@ -1,14 +1,22 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "c386233fb7fef49125b2a143b7f9bf4cbea3a303"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "JRPGAutoGrinder/1.0.0": {
+        "dependencies": {
+          "System.Windows.Forms": "4.0.0"
+        },
         "runtime": {
           "JRPGAutoGrinder.dll": {}
+        }
+      },
+      "System.Windows.Forms/4.0.0": {
+        "runtime": {
+          "lib/System.Windows.Forms.dll": {}
         }
       }
     }
@@ -18,6 +26,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "System.Windows.Forms/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SpwsmXGtJZPj4RjJuO/l01uR44uu9nhZGz7JI9J8x078fdT6jhyRk1qPuppDotdpXlG7Jk6s/L0aFudDmmDzDA==",
+      "path": "system.windows.forms/4.0.0",
+      "hashPath": "system.windows.forms.4.0.0.nupkg.sha512"
     }
   }
 }
