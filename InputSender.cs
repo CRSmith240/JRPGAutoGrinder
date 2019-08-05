@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace JRPGAutoGrinder {
     public class InputSender {
-        private Inputs inputs = new Inputs();
+        private Inputs inputs;
         private InputSimulator sim = new InputSimulator();
 
         [DllImport("user32.dll")]
@@ -16,16 +16,19 @@ namespace JRPGAutoGrinder {
         [DllImport("user32.dll")]
         private static extern IntPtr SetForegroundWindow(IntPtr hwnd);
 
-
-        public void test() {
-            var x = inputs.Disgaea["CoO4"];
-            var y = FindWindow(null, "Disgaea2 PC");
+        public InputSender(Inputs inputs) {
+          this.inputs = inputs;
+        }
+        public void test(int cycleCount) {
+            var x = inputs.inputType.InputChains();
+            var chainType = x[GatherName()];
+            var y = FindWindow(null, inputs.inputType.WindowName());
             SetForegroundWindow(y);
-            while (true) {
-                foreach (var actionSet in x) {
-                    int.TryParse(actionSet, out var z);
-                    if (z > 0) {
-                        Thread.Sleep(z);
+            while (true) { //TODO: add cycle amount
+                foreach (var actionSet in chainType) {
+                    int.TryParse(actionSet, out var delay);
+                    if (delay > 0) {
+                        Thread.Sleep(delay);
                         Console.WriteLine("sleep end");
                         continue;
                     } else {
@@ -39,6 +42,11 @@ namespace JRPGAutoGrinder {
 
         }
 
+        private string GatherName() {
+          //TODO List chain types and have user choose one
+          Console.WriteLine("What's the name");
+          return Console.ReadLine();
+        }
         private void DelayPress(VirtualKeyCode key) {
             //Keyboard.KeyPress is too fast and won't register, add a sleep so the game has time to register the input
             sim.Keyboard.KeyDown(key);
