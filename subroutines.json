@@ -1,0 +1,25 @@
+{
+  "Disgaea": {
+    "Target": {
+      "11-1": {},
+      "CoO4": {
+        "Inputs": []
+      }
+    }
+  },
+  "Disgaea2": {
+    "Target": {
+      "CoO4": {
+        "Inputs": [
+          "AAAA",
+          "UL",
+          "AA",
+          "DD",
+          "A",
+          "DDD",
+          "AA"
+        ]
+      }
+    }
+  }
+}
