@@ -52,7 +52,7 @@ namespace JRPGAutoGrinder {
             sim.Keyboard.KeyDown(key);
             Thread.Sleep(50);
             sim.Keyboard.KeyUp(key);
-            Thread.Sleep(115);
+            Thread.Sleep(135);
         }
     }
 }
